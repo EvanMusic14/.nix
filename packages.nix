@@ -22,4 +22,7 @@
 
   # Enable flakes permanently in NixOS
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  # Add script to path
+  environment.variables.PATH = "$PATH:$HOME/.nix/bin";
 }
