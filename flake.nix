@@ -11,7 +11,8 @@
       system = "x86_64-linux";
       modules = [
         # Import the default nix configuration
-        ./configuration.nix
+        /etc/nixos/configuration.nix
+        /etc/nixos/hardware-configuration.nix
         ./packages.nix
       ];
     };
