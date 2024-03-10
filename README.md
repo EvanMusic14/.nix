@@ -18,3 +18,7 @@
     - The `rebuild` script gets added to the system path in `packages.nix`
 3. Run the rebuild script: `~/.nix/bin/rebuild`
 4. Manually run the rebuild command within the `~/.nix` directory: `sudo nixos-rebuild switch --flake . --impure`
+
+## Sources
+- Home Manager Options: https://nix-community.github.io/home-manager/options.xhtml
+    - home.shellAliases
